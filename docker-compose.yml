@@ -9,7 +9,7 @@ services:
     ports:
       - '9001:8081'
     environment:
-      - API_URL=http://localhost:8080/
+      - API_URL=http://localhost:9002/
       - REACT_APP_AIAPI_URL=https://aiapi.swetrix.com/
       - REACT_APP_SELFHOSTED=true
 
